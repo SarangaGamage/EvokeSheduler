@@ -59,7 +59,6 @@ public class AstrologersEntity {
     @Column(name = "Email")
     private String Email;
 
-
     @Column(name = "IntervalDuration")
     private Integer IntervalDuration;
 
@@ -68,7 +67,6 @@ public class AstrologersEntity {
 
     @Column(name = "Status")
     private Integer Status;
-
 
     @Column(name = "UserCreated")
     private Integer AstrologerCreated;
@@ -84,6 +82,4 @@ public class AstrologersEntity {
 
     @Column(name = "IsDeleted")
     private Integer isAstrologerDeleted;
-
-
 }

@@ -10,4 +10,5 @@ import org.springframework.stereotype.Repository;
 public interface AstrologerRepository extends JpaRepository <AstrologersEntity,Integer> {
     @Query(value = "SELECT * FROM astrologers WHERE Id=:Id", nativeQuery = true)
     AstrologersEntity GetAstrologerMobile(String Id);
+
 }
